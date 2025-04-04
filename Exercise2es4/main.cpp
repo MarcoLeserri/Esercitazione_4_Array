@@ -28,6 +28,12 @@ int main()
 	printout << "Rate of return of the portfolio: "<< fixed << setprecision(4) << rate << endl;
 	printout << "V: "<< fixed << setprecision(2) << V << endl;
 	
+	cout << "S = "<< fixed << setprecision(2) << S << ", n = "<< n << endl;
+	cout << "w = "<< ArrayToString(n, ptr1)<< endl;
+	cout << "r = "<< ArrayToString(n, ptr2)<< endl;
+	cout << "Rate of return of the portfolio: "<< fixed << setprecision(4) << rate << endl;
+	cout << "V: "<< fixed << setprecision(2) << V << endl;
+	
 	return 0;
 }
 

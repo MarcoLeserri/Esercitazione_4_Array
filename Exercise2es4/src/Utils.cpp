@@ -52,7 +52,7 @@ bool ImportVectors(const string& inputFilePath,
 		file >> v2[i];
 		file.ignore();
 	}
-	return false;
+	return true;
     
 }
 double return_V(const double S, const double* v1, const double* v2, const size_t n)
